@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": ["es2022", "dom"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "../public",
+
+    // Strictness
+    "strict": true,              // Enables all strict checks
+    "noImplicitAny": true,       // Error on implicit 'any' types
+    "strictNullChecks": true,    // Strict null/undefined checking
+    "strictFunctionTypes": true, // Strict function type checking
+    "noImplicitReturns": true,   // Error when not all paths return
+    "noImplicitThis": true,      // Error on implicit 'this'
+    "noUnusedLocals": true,      // Error on unused variables
+    "noUnusedParameters": true,  // Error on unused parameters
+    "exactOptionalPropertyTypes": true, // Strict optional properties
+    "noUncheckedIndexedAccess": true,   // Add undefined to index access
+    
+    // Additional strict checks
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false
+  }
+}
