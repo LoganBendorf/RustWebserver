@@ -1,0 +1,1 @@
+std::result::Result<(), std::boxed::Box<dyn std::error::Error>>: std::convert::From<std::result::Result<_, &str>>
